@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { FaHome, FaSearch } from 'react-icons/fa';
 import { GoHome } from "react-icons/go";
 import { CiCamera } from "react-icons/ci";
 import { TbMushroom } from "react-icons/tb";
