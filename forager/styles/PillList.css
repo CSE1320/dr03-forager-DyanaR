@@ -1,0 +1,16 @@
+h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-bottom: 0.6rem;
+  }
+
+.pills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    
+}
+
+.pill-container{
+    padding-bottom: 2.5rem;
+}
