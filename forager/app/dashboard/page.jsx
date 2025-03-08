@@ -3,6 +3,8 @@ import {useState} from 'react'
 import Search from '@/components/Search';
 import NavBar from '../../components/NavBar'; // Adjust the path as necessary
 import FilterSettings from '@/components/FilterSettings';
+import MushroomCard from '@/components/MushroomCard';
+import MushroomList from '@/components/MushroomList';
 
 export default function DashboardPage() {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
@@ -35,7 +37,8 @@ export default function DashboardPage() {
             activePills={activePills} 
             togglePill={togglePill}
           />
-        )}     
+        )}  
+        <MushroomList/>   
         <NavBar />
       </div>
     </div>

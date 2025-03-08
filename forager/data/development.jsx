@@ -25,9 +25,18 @@ const filterData = [
     }
 ];
 
+const mushrooms = [
+    { name: "Death Cap", image: "/death-cap.png", poisonous: true, percentage: "80" },
+    { name: "Paddy Straw", image: "/paddy-straw.png", poisonous: false, percentage: "90" },
+    { name: "Destroying Angel", image: "/destroying-angel.png", poisonous: true, percentage: "80" },
+    { name: "False Death Cap", image: "/false-death-cap.png", poisonous: true, percentage: "70" },
+    { name: "Puffball", image: "/puffball.png", poisonous: false, percentage: "60" },
+];
+
+
 
 // Two flavors of exporting:
 // export default dummyData; // Requires import dummyData from './data/development.js';
 
 // More than one export.
-export {warningMessage, dummyData, filterData}; // Requires import {warningMessage, dummyData} from './data/development.js';
+export {warningMessage, dummyData, filterData, mushrooms}; // Requires import {warningMessage, dummyData} from './data/development.js';
