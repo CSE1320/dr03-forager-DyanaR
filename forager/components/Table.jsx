@@ -24,12 +24,12 @@ export default function Table({ mushroomFeatures, onFeatureChange }) {
                             </td>
 
                             {/* feature name column */}
-                            <td className="border-r border-[#203B5F] px-2 text-[#324053] font-semibold">
+                            <td className="border-r border-[#203B5F] px-1 text-[#324053] font-semibold">
                                 {feature.name}
                             </td>
 
                             {/* predefined mushroom data column */}
-                            <td className="px-2 text-[#324053]">{feature.value}</td>
+                            <td className="px-1 text-[#324053]">{feature.value}</td>
                         </tr>
                     ))}
                 </tbody>
