@@ -20,5 +20,5 @@ author:
 
 submit:
 submit:
-	git ls-files | zip -r "submission_$(YOUTUBE)_$(SEMESTER)_$(PROJECT)_$(SID)_$(NAME).zip" -@
-	@echo "Submission zip file created: submission_$(YOUTUBE)_$(SEMESTER)_$(PROJECT)_$(SID)_$(NAME).zip"
+	git ls-files | zip -r "submission_$(SEMESTER)_$(PROJECT)_$(SID)_$(NAME).zip" -@
+	@echo "Submission zip file created: submission_$(SEMESTER)_$(PROJECT)_$(SID)_$(NAME).zip"
