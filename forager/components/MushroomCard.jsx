@@ -3,17 +3,19 @@ export default function MushroomCard({name, image, poisonous, percentage}){
         <li className="text-center">
             <div className="relative inline-block bg-white shadow-xl">
                 <img 
-                    className="w-[160px] h-[200px] p-1.5 pb-6"
+                    className="w-[140px] h-[160px] p-1.5 pb-6"
                     src={image}
                     alt={name}
                 />
 
                 <div className="absolute top-2.5 left-2.5 flex items-center space-x-1">
                 {/* add a variable for conciseness later */}
-                <div className={`text-white text-[12px] font-bold px-1 py-.8 rounded-md 
+                    {percentage !== null && (
+                        <div className={`text-white text-[12px] font-bold px-1 py-.8 rounded-md 
                         ${poisonous ? 'bg-red-500' : 'bg-green-500'}`}>
                         {percentage}%
-                    </div>
+                        </div>
+                    )}
                     {poisonous && (
                         <img 
                             className="w-4 h-4"
